@@ -4,8 +4,30 @@
   "description": "an application to graphically render statistics from a database of international economic, social, and health data",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --inline --hot --progress --colors"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "superagent": "^2.3.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-middleware": "^1.8.4",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-hot-middleware": "^2.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.5.0"
+  }
 }
