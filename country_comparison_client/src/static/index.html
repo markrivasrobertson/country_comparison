@@ -3,14 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Country Comparison App</title>
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css"/>
     <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css"/>
   </head>
   <body>
     <div>
-      <select id="countriesSelect"></select>
+      <p>The People at Gapminder want to help people learn about the world they live in</p>
     </div>
-    <h1>Here's a header</h1>
-    <button id="testButton">Testing button</button>
+    <div>
+      <h3>country 1:<select id="countriesSelectOne"></select></h3><br />
+      <h3>country 2:<select id="countriesSelectTwo"></select></h3><br />
+      <h3>statistic:<select id="statisticsList"></h3></select>
+    </div>
+    <h1>National Statistics Comparison</h1>
+    <button id="testButton">See the Statistics</button>
     <div class="root">
     </div>
   <script src="https://d3js.org/d3.v4.min.js"></script>

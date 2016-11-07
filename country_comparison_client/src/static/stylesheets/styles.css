@@ -1,3 +1,7 @@
 * {
   background-color: lightblue;
 }
+rect {
+  display: block;
+  margin: 4px;
+}
